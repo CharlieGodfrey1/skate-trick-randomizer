@@ -21,7 +21,17 @@
 	cursor: pointer;
 }
 
-.button1 {border-radius: 30%;}		
+.button1 {border-radius: 30%;}
+
+.button2 {
+	position relative;
+	left: 50px;
+	border-radius: 30%;}
+
+.button3 {
+	position relative;
+	left: 100px;
+	border-radius: 30%;}
 
 *, *::after, *::before {
 	box-sizing: border-box;
