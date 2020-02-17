@@ -7,9 +7,10 @@ document.getElementById("easy").addEventListener("click", function(){
 	console.log(randomNumberInRange);
 	var randomeIntegerInRange = Math.floor(randomNumberInRange);
 	console.log(randomeIntegerInRange);
-	var trick = easyskate[randomeIntegerInRange];
-	console.log(trick);
-	alert(trick);
+	var trick1 = easyskate[randomeIntegerInRange];
+	console.log(trick1);
+	document.getElementById("quoteDisplay1").innerHTML = trick1;
+	return
 });
 
 
@@ -22,9 +23,10 @@ document.getElementById("medium").addEventListener("click", function(){
 	console.log(randomNumberInRange);
 	var randomIntegerInRange = Math.floor(randomNumberInRange);
 	console.log(randomIntegerInRange);
-	var trick = mediumskate[randomIntegerInRange];
-	console.log(trick);
-	alert(trick);
+	var trick2 = mediumskate[randomIntegerInRange];
+	console.log(trick2);
+	document.getElementById("quoteDisplay2").innerHTML = trick2;
+	return
 });
 
 var hardskate = ["impossible", "dolphin flip", "360 flip", "laser flip", "frontside 360", "backside 360"]
@@ -36,9 +38,10 @@ document.getElementById("hard").addEventListener("click", function(){
 	console.log(randomNumberInRange);
 	var randomeIntegerInRange = Math.floor(randomNumberInRange);
 	console.log(randomeIntegerInRange);
-	var trick = hardskate[randomeIntegerInRange];
-	console.log(trick);
-	alert(trick);
+	var trick3 = hardskate[randomeIntegerInRange];
+	console.log(trick3);
+	document.getElementById("quoteDisplay3").innerHTML = trick3;
+	return
 });
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
