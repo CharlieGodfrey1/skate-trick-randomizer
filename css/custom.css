@@ -1,4 +1,12 @@
-﻿.name{
+﻿h1{
+	color:#fff;
+}
+
+h2{
+	color:#fff;
+}
+
+.name{
 /*	class */
 	font-size: 100px;
 }
@@ -17,16 +25,19 @@
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin: 4px 2px;
+	margin: 40px 200px;
 	cursor: pointer;
+	
 }
 
-.button1 {border-radius: 30%;}
+.button1 {border-radius: 30px;}
 
-
-*, *::after, *::before {
-	box-sizing: border-box;
+.button:hover{
+	background: #f1f1f1;
+	color: black;
 }
+
+
 
 
 *, *::after, *::before {
@@ -57,11 +68,13 @@
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid black;
+	text-align: center;
   }
   
   .modal-header .title {
 	font-size: 1.25rem;
 	font-weight: bold;
+	text-align: ;
   }
   
   .modal-header .close-button {
@@ -93,3 +106,13 @@
 	opacity: 1;
 	pointer-events: all;
   }
+
+  /* bootstrap code*/
+  .jumbotron{padding:2rem 1rem;margin-bottom:10rem;background-color:#526E32;border-radius:.3rem}@media (min-width:576px){.jumbotron{padding:4rem 2rem}}
+  .jumbotron-fluid{padding-right:0;padding-left:0;border-radius:0}
+
+  .display-3{font-size:4.5rem;font-weight:300;line-height:1.2}
+
+  body {
+	padding-top: 0rem;
+	margin: 0;
