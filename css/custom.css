@@ -67,7 +67,7 @@ h2{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid black;
+	border-bottom: ;
 	text-align: center;
   }
   
@@ -108,7 +108,7 @@ h2{
   }
 
   /* bootstrap code*/
-  .jumbotron{padding:2rem 1rem;margin-bottom:10rem;background-color:#526E32;border-radius:.3rem}@media (min-width:576px){.jumbotron{padding:4rem 2rem}}
+  .jumbotron{padding:2rem 1rem;margin-bottom:10rem;background-color:#526E32;border-radius:.0rem}@media (min-width:576px){.jumbotron{padding:4rem 2rem}}
   .jumbotron-fluid{padding-right:0;padding-left:0;border-radius:0}
 
   .display-3{font-size:4.5rem;font-weight:300;line-height:1.2}
